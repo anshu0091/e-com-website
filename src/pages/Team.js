@@ -10,8 +10,8 @@ const Team = () => {
   return (
     <>
       <h4>
-        without bonding and coordination every project is a failure. Look at
-        Wwho makes KICKSUP great
+        without bonding and coordination every project is a failure. Look at who
+        makes KICKSUP great
       </h4>
       <div className="contioner3">
         <div style={{ width: 150, height: 300 }}>
@@ -20,6 +20,7 @@ const Team = () => {
             Zidane
             <br />
             Leadership & management
+            <br />
             <br />
             <img src={facebook} alt="" style={{ height: 25, width: 25 }} />
           </div>
@@ -30,6 +31,8 @@ const Team = () => {
           <br />
           prodect devloper
           <br />
+          <br />
+          <img src={facebook} alt="" style={{ height: 25, width: 25 }} />
         </div>
         <div style={{ width: 150, height: 300 }}>
           <img src={iker} alt="" style={{ height: 150, width: 150 }} />
@@ -37,6 +40,8 @@ const Team = () => {
           <br />
           Markeeting strategy
           <br />
+          <br />
+          <img src={facebook} alt="" style={{ height: 25, width: 25 }} />
         </div>
 
         <div style={{ width: 150, height: 300 }}>
@@ -45,13 +50,17 @@ const Team = () => {
           <br />
           prodect desiner
           <br />
+          <br />
+          <img src={facebook} alt="" style={{ height: 25, width: 25 }} />
         </div>
         <div style={{ width: 150, height: 300 }}>
           <img src={cristiano} alt="" style={{ height: 150, width: 150 }} />
-          Zidane
+          Cristiano
           <br />
           Financial opereation
           <br />
+          <br />
+          <img src={facebook} alt="" style={{ height: 25, width: 25 }} />
         </div>
       </div>
     </>
